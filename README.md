@@ -5,8 +5,11 @@ This is an application where users can share their thoughts, reacts to friends' 
 
 ## Table of Contents
 -  [User Story](#userstory)
+-  [Usage](#usage)
 -  [Demo](#demo)
 -  [Technologies](#technologies)
+-  [Installation](#installation)
+-  [License](#license)
 
 ## User Story
 AS A social media startup
