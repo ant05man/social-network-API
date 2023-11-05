@@ -38,3 +38,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 -  Insomnia
 -  Moment.js
 
+## Installation
+-  Download repository to use this application on local machine
+-  Node.js and MongoDB is required to use the application
+-  To install necessary dependencies, command: npm install i
