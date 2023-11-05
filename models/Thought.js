@@ -1,4 +1,4 @@
-const { Schema, model, types } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 const moment = require('moment')
 
 // reaction schema
@@ -44,7 +44,7 @@ const thoughtSchema = new Schema(
     createdAt: {
         type: Date,
         default: Date.now,
-        get: createdAtVal => moveMessagePortToContext(createdAtVal).format("MMM DD, YYYY [at] hh:mm a"),
+        get: createdAtVal => moment(createdAtVal).format("MMM DD, YYYY [at] hh:mm a"),
     },
     username: {
         type: String,
